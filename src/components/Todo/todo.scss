@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.add-new {
+    input {
+        width: 100%;
+        padding: 0 10px;
+        outline: none;
+        border-radius: 10px;
+        &:focus {
+            border: 2px solid #0d6efd;
+        }
+    }
+}
+.container {
+    margin-top: 20px;
+    max-width: 400px;
+    .child {
+        overflow: hidden;
+        width: 500px;
+        margin-top: 20px;
+        input[type="text"] {
+            width: 80%;
+        }
+        .input-tile {
+            outline: none;
+            // padding: 0 10px;
+            padding: 0 5px;
+
+            &:focus {
+                border: 2px solid #0d6efd;
+            }
+        }
+    }
+}
