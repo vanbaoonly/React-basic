@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Color from "./HOC/randomColor"
+import Color from "../HOC/randomColor"
 import { withRouter } from "react-router";
 class Home extends React.Component {
 
@@ -8,7 +8,7 @@ class Home extends React.Component {
 
         return (
             <>
-                <h1 className='text-center'> Welcom to Home Page</h1>
+                <h1 className='text-center '> Welcom to Home Page</h1>
             </>
         );
     }

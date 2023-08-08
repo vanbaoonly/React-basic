@@ -1,11 +1,11 @@
 import './App.scss';
-import Navigation from "../components/navigation/Navigation";
-import Home from '../components/Home';
-import About from "../components/About/About"
-import ListUsers from "../components/User/ListUser";
-import Listtodo from "../components/Todo/Listtodo";
-import Login from "../components/login";
-import Detailuser from '../components/User/Detailuser';
+import Navigation from "./navigation/Navigation";
+import Home from './Home/Home';
+import About from "./About/About"
+import ListUsers from "./User/ListUser";
+import Listtodo from "./Todo/Listtodo";
+import Login from "./Login/login";
+import Detailuser from './User/Detailuser';
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
